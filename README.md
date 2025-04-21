@@ -1,4 +1,4 @@
-# 👗 Fashion Website UI Template
+# Fashion Website UI Template
 
 A sleek and responsive fashion website UI built using **React** and **Tailwind CSS**. This template showcases clothing products and customer feedback in a modern and elegant layout. Perfect for fashion startups, e-commerce mockups, or design inspiration.
 
