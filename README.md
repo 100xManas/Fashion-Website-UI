@@ -25,8 +25,6 @@ Want to explore the UI blueprint?
 
 👉 [View Figma Design](https://www.figma.com/design/KS9a6XpeZfA9QZWlf6xPoH/Fashion-Website-UI-Template--Community-?node-id=0-1&p=f&t=Z5hE8F1KShhPqOOH-0)
 
----
-
 ## 🌐 Live Demo
 
 Check out the live version of the Fashion Website UI:
