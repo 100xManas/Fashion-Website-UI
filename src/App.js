@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './components/NavBar';
+import Hero from './components/Hero';
+import BestSelling from './components/BestSelling';
+import OurProducts from './components/OurProducts';
+import ExclusiveOffer from './components/ExclusiveOffer';
+import DesignerClothes from './components/DesignerClothes';
+import FeedbackCorner from './components/FeedbackCorner';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='bg-[#C2EFD4] w-full h-screen px-32'>
+        <NavBar />
+        <Hero />
+      </div>
+      <div className='w-full px-32'>
+        <BestSelling />
+      </div>
+      <div className='w-full px-32'>
+        <OurProducts />
+      </div>
+      <div className='w-full flex items-center justify-center h-screen px-32'>
+        <ExclusiveOffer/>
+      </div>
+      <div className='w-full px-32'>
+        <DesignerClothes />
+      </div>
+      <div className='w-full px-32'>
+        <FeedbackCorner/>
+      </div>
+     
+      <Footer />
+      
     </div>
   );
 }
